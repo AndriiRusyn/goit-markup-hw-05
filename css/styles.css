@@ -134,6 +134,7 @@ img {
 .site-nav .link {
   position: relative;
   display: block;
+  
   padding-top: 24px;
   padding-bottom: 24px;
 
@@ -157,6 +158,36 @@ img {
 .site-nav .link.current {
   color: var(--Pressed-State-OCEAN);
 }
+
+
+.current {
+  color: var(--Pressed-State-OCEAN);
+}
+
+.menu-link {
+  position: relative;
+  display: block;
+  color: var(--Pressed-State-OCEAN);
+  transition: var(--transition);
+}
+
+.menu-link.current:after {
+  background: var(--Pressed-State-OCEAN);
+
+}
+
+.menu-link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    border-radius: 2px;
+}
+
+
 
 .contact-info .link:hover,
 .contact-info .link:focus {
@@ -211,32 +242,7 @@ img {
   display: flex;
 }
 
-.current {
-  color: var(--Pressed-State-OCEAN);
-}
 
-.menu-link {
-  position: relative;
-  display: block;
-  color: var(--Pressed-State-OCEAN);
-  transition: var(--transition);
-}
-
-.menu-link.current:after {
-  background: var(--Pressed-State-OCEAN);
-
-}
-
-.menu-link::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    border-radius: 2px;
-}
 
 
 
