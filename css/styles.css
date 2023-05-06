@@ -164,9 +164,7 @@ img {
 .menu-link {
   position: relative;
   color: var(--Pressed-State-OCEAN);
-  /* transition: color var(--transition); */
   }
-
 
 
 .menu-link::after {
