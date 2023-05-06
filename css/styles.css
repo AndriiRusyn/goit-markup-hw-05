@@ -218,6 +218,7 @@ img {
 .menu-link {
   position: relative;
   display: block;
+  color: var(--Pressed-State-OCEAN);
   transition: var(--transition);
 }
 
