@@ -173,9 +173,7 @@ img {
   transition: color var(--transition);
 }
 
-.menu-link.current:after {
-  background: var(--Pressed-State-OCEAN);
-}
+
 
 .menu-link::after {
    position: absolute;
@@ -188,6 +186,7 @@ img {
     bottom: -1px;
     left: 0;
     border-radius: 2px;
+    background-color: var(--Pressed-State-OCEAN);
     transition: color var(--transition);
 }
 
