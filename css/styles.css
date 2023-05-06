@@ -146,10 +146,9 @@ img {
   font-size: 16px;
   line-height: 1.5;
 
-  /* color: var(--Dark-NAVY-BLUE);
-  transition: background-color var(--transition); */
-  color: var(--Pressed-State-OCEAN);
-  transition: var(--transition);
+  color: var(--Dark-NAVY-BLUE);
+  transition: background-color var(--transition);
+ 
 }
 
 .site-nav .link:hover,
@@ -164,6 +163,7 @@ img {
 
 .current {
   color: var(--Pressed-State-OCEAN);
+  transition: var(--transition);
 }
 
 .menu-link {
@@ -184,9 +184,10 @@ img {
     position: absolute;
     width: 100%;
     height: 4px;
-    bottom: 0;
+    bottom: -1px;
     left: 0;
     border-radius: 2px;
+    transition: var(--transition);
 }
 
 
