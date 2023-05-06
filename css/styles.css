@@ -164,8 +164,11 @@ img {
 .menu-link {
   position: relative;
   color: var(--Pressed-State-OCEAN);
-  }
+}
 
+.current {
+  color: var(--Pressed-State-OCEAN);
+}
 
 .current::after {
    position: absolute;
