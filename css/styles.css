@@ -163,10 +163,11 @@ img {
 
 .menu-link {
   position: relative;
-  color: var(--Dark-NAVY-BLUE);
+  color: #404bbf
 }
 
 .current {
+  position: relative;
   color: var(--Pressed-State-OCEAN);
 }
 
