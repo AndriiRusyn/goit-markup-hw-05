@@ -146,8 +146,10 @@ img {
   font-size: 16px;
   line-height: 1.5;
 
-  color: var(--Dark-NAVY-BLUE);
-  transition: background-color var(--transition);
+  /* color: var(--Dark-NAVY-BLUE);
+  transition: background-color var(--transition); */
+  color: var(--Pressed-State-OCEAN);
+  transition: var(--transition);
 }
 
 .site-nav .link:hover,
