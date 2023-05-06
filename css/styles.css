@@ -147,7 +147,7 @@ img {
   line-height: 1.5;
 
   color: var(--Dark-NAVY-BLUE);
-  transition: background-color var(--transition);
+  transition: var(--transition);
  
 }
 
@@ -163,6 +163,7 @@ img {
 
 .current {
   color: var(--Pressed-State-OCEAN);
+  transition: var(--Pressed-State-OCEAN);
 }
 
 .menu-link {
@@ -196,7 +197,7 @@ img {
 }
 .contact-info .link {
   color: var(--Dark-NAVY-BLUE);
-   transition: background-color var(--transition);
+   transition: var(--transition);
   
 
   font-weight: 400;
