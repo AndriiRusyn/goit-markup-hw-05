@@ -163,14 +163,12 @@ img {
 
 .current {
   color: var(--Pressed-State-OCEAN);
-  transition: var(--transition);
 }
 
 .menu-link {
   position: relative;
   display: block;
   color: var(--Pressed-State-OCEAN);
-  transition: var(--transition);
 }
 
 .menu-link.current:after {
@@ -187,7 +185,7 @@ img {
     bottom: -1px;
     left: 0;
     border-radius: 2px;
-    transition: var(--transition);
+    transition: color var(--transition);
 }
 
 
