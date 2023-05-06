@@ -167,7 +167,7 @@ img {
   }
 
 
-.menu-link::after {
+.current::after {
    position: absolute;
    display: block;  
   
