@@ -162,8 +162,9 @@ img {
 
 
 .menu-link {
-  color: #2E2F42;
-}
+  position: absolute;
+   display: block;  
+} 
 
 .current {
   position: relative;
