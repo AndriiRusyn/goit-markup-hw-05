@@ -160,29 +160,19 @@ img {
   color: var(--Pressed-State-OCEAN);
 }
 
-/* .menu-link {
-  
-   display: block;  
-  
-   content: '';
-    
-    width: 100%;
-    height: 4px;
-    bottom: -1px;
-    left: 0;
-    border-radius: 2px;
-    background: var(--Pressed-State-OCEAN);
-    transition: color var(--transition);
-} */
+.menu-link {
 
-/* .menu-link .current:after {
-  
-  color: var(--Pressed-State-OCEAN);
+    color: var(--Pressed-State-OCEAN);
+    transition: color var(--transition);
+}
+
+.current.menu-link:after {
+   color: var(--Pressed-State-OCEAN);
    position: absolute;
    display: block;  
    color: var (--Pressed-State-OCEAN);
    transition: color var(--transition);
-} */
+}
 
 .current::after {
    position: absolute;
