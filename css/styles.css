@@ -147,7 +147,7 @@ img {
   line-height: 1.5;
 
   color: var(--Dark-NAVY-BLUE);
-  transition: var(--transition);
+  transition: color var(--transition);
  }
 
 .site-nav .link:hover,
@@ -159,26 +159,9 @@ img {
   color: var(--Pressed-State-OCEAN);
 }
 
-/* .site-nav-item {
-  position: relative;
-  display: block;
-  
-  padding-top: 24px;
-  padding-bottom: 24px;
-
-  
-  font-weight: 500;
-  text-decoration: none;
-
-  letter-spacing: 0.02em;
-  font-size: 16px;
-  line-height: 1.5;
-
-  color: var(--Dark-NAVY-BLUE);
-  transition: var(--transition);
-} */
-
-
+.site-nav-item {
+  color: var(--Pressed-State-OCEAN);
+}
 
 .current::after {
   position: absolute;
@@ -219,7 +202,7 @@ img {
 }
 .contact-info .link {
   color: var(--Dark-NAVY-BLUE);
-  transition: var(--transition);
+  transition: color var(--transition);
   
 
   font-weight: 400;
