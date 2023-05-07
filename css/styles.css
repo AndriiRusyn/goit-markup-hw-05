@@ -177,36 +177,36 @@ img {
   transition: var(--transition);
 } */
 
-.current {
-    color: var(--Pressed-State-OCEAN);
-}
 
-.menu-link { 
-  position: relative;
-   display: flex;
-   color: var(--Pressed-State-OCEAN);
-   transition: color var(--transition);
-}
 
-.menu-link.current:after {
-    color: var(--Pressed-State-OCEAN); 
-    transition: var(--Pressed-State-OCEAN);
-}
-
-.menu-link::after {
+.current::after {
   position: absolute;
-  display: block;
-
   content: '';
+  
+
+  display: block;
   width: 100%;
   height: 4px;
-  bottom: -1px;
-  left: 0;
-  border-radius: 2px;
   background-color: var(--Pressed-State-OCEAN);
-  transition: color var(--transition);
-
+  bottom: -1px;
+  border-radius: 2px;
+  left: 0;
 }
+
+.menu-link {
+  display: block;
+  color: var(--Dark-NAVY-BLUE);
+  transition-property: color;
+  transition-duration: var(--transition);
+  transition-timing-function: var(--transition);
+}
+
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--Pressed-State-OCEAN);
+}
+
 
 .contact-info .link:hover,
 .contact-info .link:focus {
