@@ -132,6 +132,7 @@ img {
 }
 
 .site-nav .link {
+  position: relative;
   display: block;
   
   padding-top: 24px;
@@ -201,9 +202,12 @@ img {
   transition-timing-function: var(--transition);
 }
 
-
 .menu-link:hover,
 .menu-link:focus {
+  color: var(--Pressed-State-OCEAN);
+}
+
+.current {
   color: var(--Pressed-State-OCEAN);
 }
 
