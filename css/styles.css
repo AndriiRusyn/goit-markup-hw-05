@@ -160,18 +160,24 @@ img {
   color: var(--Pressed-State-OCEAN);
 }
 
+.current {
+  color: var(--Pressed-State-OCEAN);
+  transition: color var(--Pressed-State-OCEAN);
+}
 
 .menu-link {
   position: absolute;
    display: block;  
+   color: var (--Pressed-State-OCEAN);
+   transition: color var(--transition);
 } 
 
-.current {
-  position: relative;
-  color: var(--Pressed-State-OCEAN);
+.menu-link.current:after {
+  
+ background-color: var(--Pressed-State-OCEAN);
 }
 
-.current::after {
+.menu-link::after {
    position: absolute;
    display: block;  
   
