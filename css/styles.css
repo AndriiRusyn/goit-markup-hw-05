@@ -165,7 +165,7 @@ img {
     transition: color var(--transition);
 }
 
-.menu-link{
+.menu-link {
    position: absolute;
    display: block;
    color: var(--Pressed-State-OCEAN);
@@ -173,7 +173,9 @@ img {
 }
 
 .menu-link.current:after {
-    background: var(--Pressed-State-OCEAN); 
+
+    color: var(--Pressed-State-OCEAN); 
+    transition: var(--Pressed-State-OCEAN);
 }
 
 .menu-link::after {
@@ -188,7 +190,7 @@ img {
   border-radius: 2px;
   background-color: var(--Pressed-State-OCEAN);
   transition: color var(--transition);
-  
+
 }
 
 .contact-info .link:hover,
@@ -196,7 +198,8 @@ img {
   color: var(--Pressed-State-OCEAN);
 }
 .contact-info .link {
-  color: var(--Dark-NAVY-BLUE);
+  /* color: var(--Dark-NAVY-BLUE); */
+  color: var(--Pressed-State-OCEAN);
   transition: var(--transition);
   
 
