@@ -160,24 +160,22 @@ img {
   color: var(--Pressed-State-OCEAN);
 }
 
-.current {
+.menu-link {
   color: var(--Pressed-State-OCEAN);
   transition: color var(--Pressed-State-OCEAN);
 }
 
-.menu-link {
-  position: absolute;
-   display: block;  
-   color: var (--Pressed-State-OCEAN);
-   transition: color var(--transition);
-} 
 
 .menu-link.current:after {
   
- background-color: var(--Pressed-State-OCEAN);
+  color: var(--Pressed-State-OCEAN);
+   position: absolute;
+   display: block;  
+   color: var (--Pressed-State-OCEAN);
+   transition: color var(--transition);
 }
 
-.menu-link::after {
+.current::after {
    position: absolute;
    display: block;  
   
@@ -188,7 +186,7 @@ img {
     bottom: -1px;
     left: 0;
     border-radius: 2px;
-    background-color: var(--Pressed-State-OCEAN);
+    background: var(--Pressed-State-OCEAN);
     transition: color var(--transition);
 }
 
