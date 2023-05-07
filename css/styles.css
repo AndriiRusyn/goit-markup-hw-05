@@ -161,7 +161,6 @@ img {
 }
 
 .current {
-    position: relative;
     color: var(--Pressed-State-OCEAN);
     transition: color var(--transition);
 }
