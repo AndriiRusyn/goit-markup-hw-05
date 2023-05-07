@@ -132,7 +132,6 @@ img {
 }
 
 .site-nav .link {
-  position: relative;
   display: block;
   
   padding-top: 24px;
@@ -166,6 +165,7 @@ img {
 }
 
 .menu-link { 
+  position: relative;
    display:flex;
    color: var(--Pressed-State-OCEAN);
    transition: color var(--transition);
