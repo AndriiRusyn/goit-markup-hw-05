@@ -132,6 +132,7 @@ img {
 }
 
 .site-nav .link {
+  position: relative;
   display: block;
   
   padding-top: 24px;
@@ -165,14 +166,14 @@ img {
     transition: color var(--transition);
 }
 
-.menu-link {
-   display: block;
+.menu-link { 
+   display:flex;
    color: var(--Pressed-State-OCEAN);
    transition: color var(--transition);
 }
 
 .menu-link.current:after {
-    color: var(--Pressed-State-OCEAN); 
+    background-color: var(--Pressed-State-OCEAN); 
     transition: var(--Pressed-State-OCEAN);
 }
 
@@ -186,7 +187,7 @@ img {
   bottom: -1px;
   left: 0;
   border-radius: 2px;
-  background-color: var(--Pressed-State-OCEAN);
+  color: var(--Pressed-State-OCEAN);
   transition: color var(--transition);
 
 }
