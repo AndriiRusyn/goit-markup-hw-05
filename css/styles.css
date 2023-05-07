@@ -132,7 +132,7 @@ img {
 }
 
 .site-nav .link {
-  position: relative;
+  
   display: block;
   
   padding-top: 24px;
@@ -195,6 +195,7 @@ img {
 }
 
 .menu-link {
+  position: relative;
   display: block;
   color: var(--Dark-NAVY-BLUE);
   transition-property: color;
